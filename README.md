@@ -79,7 +79,7 @@
 2.指定命令生成tailwind css的配置文件
   `npx tailwindcss init -p`
 3.配置模板路径
-```
+```javascript
 export default {
   content: [
     "./index.html",
@@ -90,10 +90,10 @@ export default {
   },
   plugins: [],
 }
-```javascript
-4.主css入口引入
 ```
+4.主css入口引入
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-```javascript
+```
